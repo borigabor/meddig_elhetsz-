@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meddig élhetsz?</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h3>Meddig élhetsz?</h3>
+
+    <div class="container">
+
+    <form class="input-fields">
+        <table>
+            <tr>
+                <th></th>
+                <th>igen</th>
+                <th>nem</th>
+            </tr>
+
+            <tr>
+                <td>Férfi vagy?</td>
+                <td>
+                    <input type="radio" class="input" data-kategoria="nem-1" data-tipus="nem" name="1-kerdes" value="-3">
+                </td>
+                <td>
+                    <input type="radio" name="1-kerdes" class="input" value="0">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nő vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="nem-2" data-tipus="nem"  name="2-kerdes" value="4"></td>
+                <td><input type="radio" name="2-kerdes" id="no" class="input" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>30 és 40 közötti vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="kor-1" data-tipus="kor" name="3-kerdes" value="2"></td>
+                <td><input type="radio" class="input" name="3-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>40 és 50 közötti vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="kor-1" data-tipus="kor" name="4-kerdes" value="3"></td>
+                <td><input type="radio" class="input"  name="4-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>50 és 70 közötti vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="kor-1" data-tipus="kor" name="5-kerdes" value="4"></td>
+                <td><input type="radio" class="input" name="5-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>70 évesnél idősebb vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="kor-2" data-tipus="kor" name="6-kerdes" value="5"></td>
+                <td><input type="radio" class="input" id="no" name="6-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>65 évesnél idősebb vagy és még dolgozol?</td>
+                <td><input type="radio" class="input" data-kategoria="kor-2" data-tipus="kor" name="7-kerdes" value="3"></td>
+                <td><input type="radio" class="input" name="7-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Kétmilliós vagy még népesebb nagyvárosban élsz?</td>
+                <td><input type="radio" class="input" data-kategoria="lakhely-1" data-tipus="lakhely" name="8-kerdes" value="-2"></td>
+                <td><input type="radio" class="input" name="8-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Tízezer vagy még kevesebb lakosú kisvárosban vagy falusi környezetben élsz?</td>
+                <td><input type="radio" class="input" data-kategoria="lakhely-2" data-tipus="lakhely" name="9-kerdes" value="2"></td>
+                <td><input type="radio" class="input" name="9-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Egyedül élsz?</td>
+                <td><input type="radio" class="input" data-kategoria="egyedul-1" data-tipus="egyedul" name="10-kerdes" value="-3"></td>
+                <td><input type="radio" class="input" name="10-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Élettárssal vagy közeli baráttal élsz?</td>
+                <td><input type="radio" class="input" data-kategoria="egyedul-2" data-tipus="egyedul" name="11-kerdes" value="5"></td>
+                <td><input type="radio" class="input" name="11-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Egyetemi vagy főiskolai diplomád van?</td>
+                <td><input type="radio" class="input" name="12-kerdes" value="1"></td>
+                <td><input type="radio" class="input" name="12-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Van posztgraduális fokozatod vagy doktorid, illetve hasonló hivatásos vagy tudományos minősítésed?</td>
+                <td><input type="radio" class="input"  name="13-kerdes" value="2"></td>
+                <td><input type="radio" class="input"  name="13-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Nagyobb jövedelmed van, mint a népesség 95%-ának?</td>
+                <td><input type="radio" class="input" name="14-kerdes" value="-2"></td>
+                <td><input type="radio" class="input" name="14-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Főként ülőmunkát végzel?</td>
+                <td><input type="radio" class="input" data-kategoria="munka-1" data-tipus="munka" name="15-kerdes" value="-3"></td>
+                <td><input type="radio" class="input" name="15-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>A munkád fárasztó testi munkát is magába foglal?</td>
+                <td><input type="radio" class="input" data-kategoria="munka-2" data-tipus="munka" name="16-kerdes" value="3"></td>
+                <td><input type="radio" class="input" name="16-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Tornázol legalább hetente háromszor legalább 20-30 percet teljes erőbedobással?</td>
+                <td><input type="radio" class="input"  name="17-kerdes" value="2"></td>
+                <td><input type="radio" class="input"  name="17-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Átlagosan alszol-e tíz óránál többet bármely 24 órás időszakban?</td>
+                <td><input type="radio" class="input"  name="18-kerdes" value="-4"></td>
+                <td><input type="radio" class="input"  name="18-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Boldog vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="boldog-1" data-tipus="boldog"  name="19-kerdes" value="1"></td>
+                <td><input type="radio" class="input" name="19-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Boldogtalan vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="boldog-2" data-tipus="boldog"  name="20-kerdes" value="-2"></td>
+                <td><input type="radio" class="input" name="20-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Hirtelen természetű és agresszív vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="hangulat-1" data-tipus="hangulat"  name="21-kerdes" value="-3"></td>
+                <td><input type="radio" class="input"  name="21-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Nyugodt és jókedélyű vagy?</td>
+                <td><input type="radio" class="input" data-kategoria="hangulat-2" data-tipus="hangulat"  name="22-kerdes" value="3"></td>
+                <td><input type="radio" class="input" name="22-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Volt bármilyen (kisebb vagy nagyobb) közúti baleseted az elmúlt 12 hónapban?</td>
+                <td><input type="radio" class="input" name="23-kerdes" value="-1"></td>
+                <td><input type="radio" class="input" name="23-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>40-nél több cigarettát szívsz el naponta?</td>
+                <td><input type="radio" class="input" data-kategoria="cigi-1" data-tipus="cigi" name="24-kerdes" value="-8"></td>
+                <td><input type="radio" class="input" name="24-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>21-40 cigarettát szívsz el naponta?</td>
+                <td><input type="radio" class="input" data-kategoria="cigi-2" data-tipus="cigi" name="25-kerdes" value="-6"></td>
+                <td><input type="radio" class="input" name="25-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>1-20 cigarettát szívsz el naponta?</td>
+                <td><input type="radio" class="input" data-kategoria="cigi-3" data-tipus="cigi" name="26-kerdes" value="-3"></td>
+                <td><input type="radio" class="input" name="26-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Megiszol naponta 0,5 dl égetett szeszes italt, vagy ennek megfelelő mennyiségű más szeszes italt?</td>
+                <td><input type="radio" class="input" name="27-kerdes" value="-1"></td>
+                <td><input type="radio" class="input" name="27-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Több mint 25 kg-mal több vagy az ideális súlyodnál?</td>
+                <td><input type="radio" class="input" data-kategoria="suly-1" id="3_elhizas" data-tipus="suly" name="28-kerdes" value="-8"></td>
+                <td><input type="radio" class="input" name="28-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>15-25 kg-mal több vagy az ideális súlyodnál?</td>
+                <td><input type="radio" class="input" data-kategoria="suly-2" id="2_elhizas" data-tipus="suly" name="29-kerdes" value="-4"></td>
+                <td><input type="radio" class="input" name="29-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>5-15 kg-mal több vagy az ideális súlyodnál?</td>
+                <td><input type="radio" class="input" data-kategoria="suly-3" id="1_elhizas" data-tipus="suly" name="30-kerdes" value="-2"></td>
+                <td><input type="radio" class="input" name="30-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Aláveted magad évenkénti orvosi kivizsgálásnak?</td>
+                <td><input type="radio" class="input"  name="31-kerdes" value="2"></td>
+                <td><input type="radio" class="input" name="31-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Élt valamelyik nagyszülőd 85 éves koráig vagy még tovább?</td>
+                <td><input type="radio" class="input"  name="32-kerdes" value="2"></td>
+                <td><input type="radio" class="input" name="32-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Mind a négy nagyszülőd megérte a 80. évet, vagy még többet?</td>
+                <td><input type="radio" class="input"  name="33-kerdes" value="6"></td>
+                <td><input type="radio" class="input" name="33-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Meghalt-e bármelyik szülőd szívbajban vagy infarktusban, mielőtt betöltötte volna az 50. évét?</td>
+                <td><input type="radio" class="input"  name="34-kerdes" value="-4"></td>
+                <td><input type="radio" class="input" name="34-kerdes" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>Volt valamelyik szülődnek, vagy testvérdednek szívproblémája vagy rákja 50 éves kora előtt?</td>
+                <td><input type="radio" class="input"  name="35-kerdes" value="-3"></td>
+                <td><input type="radio" class="input" name="35-kerdes" value="0"></td>
+            </tr>
+
+        </table>
+
+        <button type="submit">Kiértékel</button>
+    </form>
+
+    <form class="testtomeg_form">
+        <table class="testtomeg_tabla"> 
+        <tr>
+            <td>Magasságod:</td>
+            <td><input type="num" id="magassag" class="input-field input-data"></td>
+            <td>cm</td>
+        </tr>
+        <tr>
+            <td>Súlyod:</td>
+            <td><input type="num" id="suly" class="input-field input-data"></td>
+            <td>kg</td>
+        </tr>
+        <tr>
+            <td>Súlytöbbleted:</td>
+            <td><input type="num" id="sulytobblet" class="input-field"></td>
+            <td>kg</td>
+        </tr>
+    </table>
+    </form>
+
+ </div>
+
+<div id="eletkor"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

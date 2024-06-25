@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+.input-fields {
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+table, tr, td, th {
+    border-collapse: collapse;
+    border: 3px solid #FFFFFF;
+    background-color: #EEEEEE;
+    color: #4848FC;
+    font-weight: 500;
+}
+
+tr th:first-child {
+    background-color: #fff;
+}
+
+tr td:first-child {
+    width: 70%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.testtomeg_form {
+    padding-bottom: 140px;
+}
+
+.testtomeg_tabla {
+    width: 200px;
+}
+
+.testtomeg_tabla tr td {
+    border-collapse: collapse;
+    border: none;
+    border-bottom: 3px solid #fff;
+    padding: 3px;
+    background-color: #DDDDDD;
+}
+
+.input-field {
+    width: 60px;
+    text-align: right;
+}
